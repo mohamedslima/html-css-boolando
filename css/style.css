@@ -1,0 +1,89 @@
+/* * Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* * /Reset */
+
+/* size container */
+
+.container-1{
+    width: 300px;
+    height: 450px;
+    background-size: contain;
+    position: relative;
+}
+
+.container-color-text{
+    background-color: white;
+    width: 300px;
+    height: 65px;
+    position: absolute;
+    top: 95%;
+}
+
+.container-heart{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.container-sales{
+    background-color: red;
+    width: 30px;
+    height: 20px;  
+    position: absolute;
+    top: 380px;
+    font-size: 8pt;
+    color: white;
+    text-align: center;
+}
+
+.container-sostenibility{
+    background-color: aqua;
+}
+
+/* /size container */
+
+/* setting all dress */
+
+.dress-1{
+    background-image: url(../img/1.webp);
+}
+
+/* /setting all dress */
+
+/* set marche  */
+
+.set{
+    display: block;
+}
+
+.set.micro.text{
+    font-size: 8pt;
+}
+
+.set.model{
+    font-size: 12pt;
+}
+
+.set.price{
+    font-size: 8pt;
+    color: red;
+}
+
+.setting.sales{
+    color: black;
+    text-decoration: line-through;
+}
+
+/* /set marche  */
