@@ -7,11 +7,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    position: relative;
+}
+
 /* * /Reset */
 
 /* size container */
 
-.container-1{
+.container{
     width: 300px;
     height: 450px;
     background-size: contain;
@@ -35,6 +39,7 @@
     top: 10px;
     font-size: 12pt;
     text-align: center;
+    line-height: 30px;
 }
 
 .container-sales{
@@ -46,6 +51,7 @@
     font-size: 8pt;
     color: white;
     text-align: center;
+    line-height: 18px;
 }
 
 .container-sostenibility{
@@ -58,6 +64,7 @@
     font-size: 8pt;
     color: white;
     text-align: center;
+    line-height: 18px;
 }
 
 /* /size container */
@@ -68,6 +75,13 @@
     background-image: url(../img/1.webp);
 }
 
+.dress-2{
+    background-image: url(../img/2.webp);
+}
+
+.dress-3{
+    background-image: url(../img/3\ 1.webp);
+}
 /* /setting all dress */
 
 /* set marche  */
@@ -78,6 +92,7 @@
 
 .set.micro.text{
     font-size: 8pt;
+    font-weight: ;
 }
 
 .set.model{
@@ -95,3 +110,28 @@
 }
 
 /* /set marche  */
+
+/* position container */
+
+.container.dress-1{
+    position: absolute;
+    top: 8%;
+    bottom: 8%;
+    left: 60%;
+}
+
+.container.dress-2{
+    position: absolute;
+    top: 8%;
+    bottom: 8%;
+    left: 165%;
+}
+
+.container.dress-3{
+    position: absolute;
+    top: 8%;
+    bottom: 8%;
+    left: 270%;
+}
+
+/* /position container */
