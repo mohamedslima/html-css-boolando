@@ -38,9 +38,9 @@
 }
 
 .container-sales{
-    background-color: red;
+    background-color: #ec0037;
     width: 30px;
-    height: 20px;  
+    height: 18px;  
     position: absolute;
     top: 380px;
     font-size: 8pt;
@@ -49,7 +49,15 @@
 }
 
 .container-sostenibility{
-    background-color: aqua;
+    background-color: #028759;
+    height: 18px;
+    width: 60px;
+    position: absolute;
+    top: 380px;
+    left: 35px;
+    font-size: 8pt;
+    color: white;
+    text-align: center;
 }
 
 /* /size container */
