@@ -20,6 +20,7 @@ body{
     height: 450px;
     background-size: contain;
     position: relative;
+    display: inline-block;
 }
 
 .container-color-text{
@@ -80,9 +81,6 @@ body{
 
 /* setting all dress */
 
-.dress-1{
-    background-image: url(../img/1.webp);
-}
 
 .dress-2{
     background-image: url(../img/2.webp);
@@ -103,11 +101,6 @@ body{
 .dress-6{
     background-image: url(../img/6.webp);
 }
-
-.dress-1:hover{
-    background-image: url(../img/1b.webp);
-}
-
 .dress-2:hover{
     background-image: url(../img/2b.webp);
 }
@@ -128,6 +121,9 @@ body{
     background-image: url(../img/6b.webp);
 }
 
+.image-default{
+    display: block;
+}
 
 /* /setting all dress */
 
